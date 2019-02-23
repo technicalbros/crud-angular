@@ -1,0 +1,17 @@
+.error-snackbar {
+  background-color: #b82520;
+  color: white;
+}
+.error-snackbar .mat-button {
+  color: white;
+}
+
+.success-snackbar {
+  background-color: green;
+  color: white;
+}
+.success-snackbar .mat-button {
+  color: white;
+}
+
+/*# sourceMappingURL=material.css.map */

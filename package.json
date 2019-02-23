@@ -1,0 +1,39 @@
+{
+  "name": "@crud/angular",
+  "version": "1.0.0",
+  "description": "@crud/core support for angular 7",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc --watch",
+    "watch_scss": "sass scss:css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technicalbros/crud-angular.git"
+  },
+  "devDependencies": {
+    "@angular/core": "^7.2.6",
+    "@angular/material": "^7.3.3",
+    "@angular/cdk": "^7.3.3",
+    "@angular/animations": "^7.2.6",
+    "@angular/common": "^7.2.6",
+    "@angular/compiler": "^7.2.6",
+    "@angular/platform-browser": "^7.2.6",
+    "@crud/core": "^2.0.2",
+    "typescript": "^3.3.3333",
+    "sass": "^1.17.2",
+    "rxjs": "^6.4.0",
+    "@angular/forms": "^7.2.6"
+  },
+  "keywords": [
+    "crud",
+    "angular crud",
+    "angular"
+  ],
+  "author": "Shridhar Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/technicalbros/crud-angular/issues"
+  },
+  "homepage": "https://github.com/technicalbros/crud-angular#readme"
+}
