@@ -11,8 +11,8 @@ import {CrudModule} from "./CrudModule";
 export class CrudMaterialToastModule {
 
     constructor($crud: CrudRequest, snackBar: MatSnackBar) {
+
         $crud.config(config => {
-            config.baseUrl = "http://localhost/video-website/public/services/welcome/"
 
             config.callbacks.notify = ({message, type}) => new Promise(resolve => {
                 snackBar.open(message, "Hide", {
@@ -23,6 +23,7 @@ export class CrudMaterialToastModule {
 
             return config;
         })
+
     }
 
 }

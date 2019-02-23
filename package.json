@@ -1,6 +1,6 @@
 {
   "name": "@crud/angular",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "@crud/core support for angular 7",
   "main": "index.js",
   "scripts": {
